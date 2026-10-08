@@ -123,3 +123,4 @@ $("sw").onclick=swap;$("bH").onclick=history;$("bP").onclick=phrases;$("bS").onc
 function net(){const s=$("st");s.textContent=navigator.onLine?"Online":"Offline";s.className=navigator.onLine?"":"off"}
 addEventListener("online",net);addEventListener("offline",net);net();window.speechSynthesis&&speechSynthesis.getVoices();theme();render();
 </script></body></html>
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#2563eb"><script>if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js")</script>
